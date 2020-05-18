@@ -1,0 +1,27 @@
+.campaign {
+    border: 1px solid #edebe9;
+    padding: 1em;
+    background: #edebe914;
+    border-radius: 5px;
+}
+.campaign .body {
+    color: #332828bd;
+    font-weight: 300;
+    display: block;
+    font-size: .9em;
+}
+
+.campaign .title {
+    font-weight: 400;
+}
+
+.campaign .date {
+    color: #332828bd;
+    font-weight: 300;
+    font-size: .9em;
+}
+
+.campaign .block {
+    margin: .5em 0;
+}
+

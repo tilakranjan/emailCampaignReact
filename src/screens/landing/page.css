@@ -1,0 +1,38 @@
+._page {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 .2em 0 .2em;
+}
+
+h2 {
+    color: #1d1515bd;
+}
+
+@media only screen and (min-width: 400px) {
+    ._page {
+        margin:2em auto;
+        border: 1px solid rgba(211, 211, 211, 0.692);
+        padding: 1em;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgb(209, 209, 209);
+        background-color: rgba(224, 224, 224, 0);
+    }
+}
+a:active {
+    color: #1d1515bd;
+}
+
+.addBtn {
+    background: transparent;
+    border: none;
+    margin: 0 0 0 .5em;
+    cursor: pointer;
+    color: rgb(57, 180, 67);
+}
+.addBtn.remove {
+    color: red;
+}
+
+.addBtn:disabled {
+    display: none;
+}
